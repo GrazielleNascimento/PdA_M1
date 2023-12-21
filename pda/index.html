@@ -1,34 +1,96 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Site simples com html e css</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Site simples com html e css</title>
-</head>
+  <body>
+    <nav>
+      <h1>Programadores do Amanhã</h1>
+      <ul>
+        <li><a href="#"> Home </a></li>
+        <li><a href="#"> Sobre </a></li>
+        <li><a href="#"> Contato </a></li>
+      </ul>
+    </nav>
 
-<body>
-  <nav>
-    <h1> Programadores do Amanhã </h1>
-    <ul>
-      <li> <a href="#"> Home </a> </li>
-      <li> <a href="#"> Sobre </a> </li>
-      <li> <a href="#"> Contato </a> </li>
-    </ul>
+    <main>
+      <section class="banner">
+        <div class="texto">
+          <h1 class="titulo">Conheça nossos cursos</h1>
 
-  </nav>
-  <section class="banner">
-    <div class="texto">
-      <h1 class="titulo">Conheça nossos cursos</h1>
+          <div class="botoes">
+            <button class="button-saiba">Saiba Mais</button>
+            <button class="button-inscrever">Inscrever</button>
+          </div>
+        </div>
+      </section>
 
-      <div class="botoes">
-        <button class="button-saiba">Saiba Mais</button>
-        <button class="button-inscrever">Inscrever</button>
-      </div>
-    </div>
-  </section>
-</body>
+      <section class="section2">
+        <h2>Nossos Cursos</h2>
 
+        <ul>
+          <li>
+            <img
+              src="https://fastly.picsum.photos/id/483/200/200.jpg?hmac=tIKQEdwuW7trzVGWGE-cAgtpmRJla51INgO9dvJG3hA"
+              alt="onda"
+            />
+
+            <h3>Full-stack</h3>
+            <p>HTML, CSS, Javascript</p>
+            <button>Matricular</button>
+          </li>
+
+          <li>
+            <img
+              src="https://fastly.picsum.photos/id/556/200/200.jpg?hmac=5uOJ4fW7ElE2P5NfHlvz2zx4d99Ts2-lxy8tucygHLc"
+              alt="celeiro"
+            />
+
+            <h3>Spring Boot</h3>
+            <p>Java</p>
+            <button>Matricular</button>
+          </li>
+
+          <li>
+            <img
+              src="https://fastly.picsum.photos/id/1036/200/200.jpg?hmac=Yb5E0WTltIYlUDPDqT-d0Llaaq0mJnwiCUtxx8RrtVE"
+              alt="gelo"
+            />
+
+            <h3>Spring Boot</h3>
+            <p>Java</p>
+            <button>Matricular</button>
+          </li>
+
+          <li>
+            <img
+              src="https://fastly.picsum.photos/id/610/200/200.jpg?hmac=6qOvp5zik0MBH2bc7jzgth7yzkY8IlZXay0WCNF20DM"
+              alt="praia"
+            />
+            <h3>React</h3>
+            <p>React</p>
+
+            <button>Matricular</button>
+          </li>
+
+          <li>
+            <img
+              src="https://fastly.picsum.photos/id/18/200/200.jpg?hmac=naWL3P7tSw9NeN2OXqD0XhBgnBko_h5B-Z3UdUVLFcU"
+              alt="grama"
+            />
+
+            <h3>Node</h3>
+            <p>Node</p>
+
+            <button>Matricular</button>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
 </html>
